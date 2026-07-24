@@ -1,17 +1,83 @@
-Let's build your Projects page.
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Projects</title>
+  <style>
+    body {
+      background-color: #f0f8ff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px;
+    }
 
-**To add this to GitHub, same steps as before:**
-1. Go to your `solomon-coder-lang` repository
-2. Tap **"..."** next to "Code" → **"Create new file"**
-3. Name it exactly: `projects.html`
-4. Paste the code above
-5. Scroll down → **"Commit changes"** → confirm
+    h1 {
+      color: #2c3e50;
+      font-size: 36px;
+    }
 
-Once live, it'll be at:
-```
-https://solomon-coder-lang.github.io/solomon-coder-lang/projects.html
-```
+    .project-card {
+      background-color: #ffffff;
+      border: 1px solid #dbe4ea;
+      border-radius: 10px;
+      padding: 20px;
+      max-width: 450px;
+      margin: 20px auto;
+      text-align: left;
+    }
 
-Right now it shows one project card — your website itself (which is honestly a great first entry). As you build more (research project, another web page, etc.), we can add more cards here.
+    .project-card h2 {
+      color: #2c3e50;
+      font-size: 22px;
+      margin-top: 0;
+    }
 
-Go ahead and add it, then let me know how it looks!
+    .project-card p {
+      color: #34495e;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    a.button {
+      display: inline-block;
+      margin-top: 30px;
+      background-color: #2c3e50;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    a.button:hover {
+      background-color: #34495e;
+    }
+
+    a.project-link {
+      color: #2c3e50;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div style="margin-bottom: 30px;">
+    <a href="index.html" style="margin: 0 10px; color: #2c3e50; text-decoration: none; font-weight: bold;">Home</a>
+    <a href="about.html" style="margin: 0 10px; color: #2c3e50; text-decoration: none; font-weight: bold;">About</a>
+    <a href="projectsz.html" style="margin: 0 10px; color: #2c3e50; text-decoration: none; font-weight: bold;">Projects</a>
+    <a href="contact.html" style="margin: 0 10px; color: #2c3e50; text-decoration: none; font-weight: bold;">Contact</a>
+  </div>
+
+  <h1>My Projects</h1>
+
+  <div class="project-card">
+    <h2>Personal Website</h2>
+    <p>
+      My very first web development project — a homepage and About Me page,
+      built with HTML and CSS, and published live using GitHub Pages.
+      Built entirely from my phone, with no prior coding background.
+    </p>
+    <a class="project-link" href="index.html">View Homepage</a>
+  </div>
+
+</body>
+  
+</html>
